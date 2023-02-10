@@ -19,7 +19,7 @@ One important precursor (given within the example file's main function too) is t
 ```
 New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEthernet (WSL)"  -Action Allow
 ```
-After this, the 'get_localhost_wsl()' function should run as expected. To test whether communication between WSL and windows is actually enabled, you can run the following command within your WSL terminal:
+To test whether communication between WSL and windows is actually enabled, you can run the following command within your WSL terminal:
 ```
 ping "$(hostname).local"
 ```
