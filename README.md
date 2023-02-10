@@ -23,4 +23,4 @@ After this, the 'get_localhost_wsl()' function should run as expected. To test w
 ```
 ping "$(hostname).local"
 ```
-Should this command run without any packet loss, the communication channel between WSL and windows is up and running.
+Should this command run without any packet loss, the communication channel between WSL and windows is up and running. The function 'get_localhost_wsl()' should then hopefully run without issues.
