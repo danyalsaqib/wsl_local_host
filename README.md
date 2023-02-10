@@ -3,7 +3,7 @@ A python function that enables the use of Windows 'localhost' in a WSL environme
 
 ## The 'get_localhost_wsl()' function
 
-When working within WSL (Windows Subsystem for Linux), applications that are running on Windows are generally not directly accessible via 'localhost'. This is because WSL (or WSL2) is running with a virtual network (vNIC) created by the Windows Virtual Machine Platform (a subset of Hyper-V). Inside WSL2, localhost is the address of the vNIC. The answer detailed within the following forum discussion: https://superuser.com/a/1679774
+When working within WSL (Windows Subsystem for Linux), applications that are running on Windows are generally not directly accessible via 'localhost'. This is because WSL (or WSL2) is running with a virtual network (vNIC) created by the Windows Virtual Machine Platform (a subset of Hyper-V). Inside WSL2, localhost is the address of the vNIC. The query is answered in a detailed manner within the following forum discussion: https://superuser.com/a/1679774
 
 The answer within the forum also details that the actual windows address within WSL2 can be found by running the following command within WSL:
 ```
